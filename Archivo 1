@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspireTech - Innovative Solutions</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+        }
+        nav {
+            max-width: 980px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #f5f5f7;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        .hero {
+            background-color: #fbfbfd;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 600;
+        }
+        .hero p {
+            font-size: 28px;
+            color: #86868b;
+        }
+        .cta-button {
+            background-color: #0071e3;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 980px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .product-grid {
+            display: flex;
+            justify-content: space-around;
+            max-width: 980px;
+            margin: 40px auto;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 18px;
+            padding: 20px;
+            text-align: center;
+            width: 280px;
+        }
+        .product-card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">InspireTech</a>
+            <div>
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Support</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Innovation Reimagined</h1>
+            <p>Discover our latest breakthrough technology</p>
+            <a href="#" class="cta-button">Learn more</a>
+        </section>
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="/api/placeholder/200/200" alt="Product 1">
+                <h3>InspirePhone</h3>
+                <p>Our most advanced smartphone yet</p>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/200/200" alt="Product 2">
+                <h3>InspireTab</h3>
+                <p>Creativity and productivity in one device</p>
+            </div>
+            <div class="product-card">
+                <img src="/api/placeholder/200/200" alt="Product 3">
+                <h3>InspireWatch</h3>
+                <p>Stay connected, track your health</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
